@@ -236,5 +236,5 @@ class Node:
             return self.set_child("right", new_child)
           
         # If neither of the above cases applied, then the new child
-        # could not be attached to this node.
+        # could not be attached to this node
         return False
